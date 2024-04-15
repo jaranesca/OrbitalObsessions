@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Navbar</title>
+  <title>Orbital Obessions</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Add Font Awesome CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
+    .navbar {
+  padding-top: 0px;
+  padding-bottom: 5px; 
+}
     .content{
       margin-top: 0px;
     }
@@ -31,14 +34,17 @@
     }
     .navbar-nav .btn {
       margin-right: 20px;
-      background-color: #0277BD; /* Change button color */
-      border-color: #0277BD; /* Change button border color */
-      width: 90px; /* Change button width */
-      height: 40px;
+      margin-bottom: 1px;
+      background-color: #0277BD; 
+      border-color: #0277BD; 
+      width: 85px;
+      height: 28px;
+      padding: 0 10px;
+      border-radius: 2.5px;
     }
     .navbar-nav .btn:hover {
-      background-color: #7CB342; /* Change button color on hover */
-      border-color: #7CB342; /* Change button border color on hover */
+      background-color: #7CB342;
+      border-color: #7CB342; 
     }
   </style>
 </head>
@@ -63,7 +69,6 @@
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
-      <!-- Add cart icon -->
       <li class="nav-item">
         <button class="btn btn-primary">Login</button>
       </li>
