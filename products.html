@@ -58,6 +58,42 @@
         padding-bottom: 0.5px;
         color: white;
         }
+        .productcontainer{
+            margin: 10px;
+            margin-top: 5px;
+            display: flex;
+        align-items: flex-start; 
+        }
+        .producttext{
+            margin: 50px;
+        }
+        .productglobe{
+            max-width: 100%;
+            width: 600px;
+        }
+        li{
+            padding: 5px;
+        }
+        .sale{
+            color: #7CB342;
+            font-weight: 500;
+        }
+        .price{
+            font-weight: 700;
+        }
+        .stock{
+            color: #7CB342;
+            margin-bottom: 20px;
+        }
+        .directory{
+            color: gray;
+        }
+        .description{
+            margin: 20px;
+            width: 95%;
+            margin-bottom:50px ;
+        }
+    
   </style>
 </head>
 <body>
@@ -98,11 +134,12 @@
 </nav>
 
 <div class="productcontainer">
-    <img src="images/globe1.jpeg" alt="globe 1">
+    <img class="productglobe" src="images/globe1.jpeg" alt="globe 1">
     <div class="producttext">
     <p class="directory"><span class="home">Home</span> / <span class="all-globes">All Globes</span></p>
     <h1>Worldy Globe</h1>
-    <h6>$199.00 <br>Free shipping on orders $99+</h6>
+    <h4 class="price">$199.00</h4>
+<p class="sale">Free shipping on orders $99+</p>
     <h3>Key Product Features:</h3>
     <ul>
         <li>Map: Political Off-White Ocean Map</li>
@@ -113,9 +150,18 @@
         <li> Product Currency: Up-to-Date, Latest Edition</li>
         <li> Assembled Size: 16.5"h x 13"w x 12"d</li>
     </ul>
-<h6>In Stock</h6>
+<h6 class="stock">In Stock</h6>
 <button type="button" class="btn btn-primary">Add to Cart</button>
 </div>
+</div>
+<hr>
+<div class="description">
+    <h5 class="about">Description:</h5>
+    <p>The Bingham globe represents the classic yet bold styling of its namesake explorer Hiram Bingham III who most notably rediscovered the primarily forgotten Inca city of Machu Picchu. The coloring of this map is a bit different from most antique style globes, providing a bit more modern executive style color scheme featuring the latest National Geographic cartography.
+
+        This globe is mounted atop a two-toned wood base with time-dial and numbered antiqued finish diecast semi-meridian. The raised relief feature on the surface of the world globe provides small rises indicating many mountains and mountain ranges, which help to gain a better perspective of the contours of our world.
+        
+        If looking for a decorative globe that connects corporate style, the 12-inch diameter Bingham globe will make a great addition to any home or office.</p>
 </div>
 
 
