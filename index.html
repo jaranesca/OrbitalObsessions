@@ -12,39 +12,71 @@
     padding-top: 0px;
     padding-bottom: 5px; 
   }
-      .navbar-brand {
-        display: flex;
-        align-items: center;
-      }
-      .navbar-brand img {
-        max-height: 40px;
-        margin-right: 10px;
-      }
-      .navbar-nav {
-        margin-top: 10px;
-        margin-left: auto;
-        display: flex;
-        align-items: center;
-        color: black;
-      }
-      .navbar-nav .nav-link {
-        margin-right: 20px;
-      }
-      .navbar-nav .btn {
-        margin-right: 20px;
-        margin-bottom: 1px;
-        background-color: #0277BD; 
-        border-color: #0277BD; 
-        width: 85px;
-        height: 28px;
-        padding: 0 10px;
-        border-radius: 2.5px;
-      }
-      .navbar-nav .btn:hover {
-        background-color: #7CB342;
-        border-color: #7CB342; 
-      }
-      .sale {
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand img {
+    max-height: 40px;
+    margin-right: 10px;
+  }
+  .navbar-nav {
+    margin-top: 10px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 20px;
+  }
+  .navbar-nav .btn {
+    margin-right: 20px;
+    margin-bottom: 1px;
+    background-color: #0277BD; 
+    border-color: #0277BD; 
+    width: 85px;
+    height: 28px;
+    padding: 0 10px;
+    border-radius: 2.5px;
+  }
+  .navbar-nav .btn:hover {
+    background-color: #7CB342;
+    border-color: #7CB342; 
+  }
+  .abtglobe {
+    margin-bottom: 35px;
+  }
+  .shop-now-section {
+    text-align: left;
+    padding: 25px0;
+    background-color: #f8f9fa; 
+
+  }
+  .shop-now-button {
+    background-color: #0277BD;
+    border-color: #0277BD;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .shop-now-button:hover {
+    background-color: #7CB342; 
+  }
+  .product-image {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    margin: 0 auto auto 250px;
+  }
+  .quality {
+    margin-top: 75px;
+    margin-bottom: 10px;
+  }
+  .sale {
         width: 250px;
         height: 350px ;
         padding: 20px;
@@ -98,14 +130,6 @@
     h6{
       font-weight:600;
     }
-    .banner {
-    width: 100%;
-    background-color:#7CB342;
-    text-align: center;
-    padding-top: 3px;
-    padding-bottom: 0.5px;
-    color: white;
-    }
     .link{
       color: #0277BD;
     }
@@ -116,14 +140,17 @@
 hr{
   margin:20px;
 }
-  </style>
+.container{
+  margin-left: 5px;
+  padding-top: 25px;
+}
+
+  
+</style>
 </head>
 <body>
-  <div class="banner">
-    <p class="bannertext">Free Shipping for Orders Over $99</p>
-  </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">
+  <a class="navbar-brand" href="#">
     <img src="images/OOLOGO.png" alt="Logo">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -151,73 +178,90 @@ hr{
         <a class="nav-link" href="signup.html">Sign Up</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="checkout.html"><i class="fas fa-shopping-cart"></i></a>
+        <a class="nav-link" href="checkout2.html"><i class="fas fa-shopping-cart"></i></a>
       </li>
     </ul>
   </div>
 </nav>
+<section class="shop-now-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="quality">Qaulity Globes</h2>
+        <p class="abtglobe">"Explore the World with Confidence: Unveiling Quality Globes, Where Craftsmanship Meets Precision. Elevate Your Décor and Expand Your Horizons with Our Exquisite Collection of Globes, Crafted to Perfection for the Discerning Explorer."</p>
+        <a href="#" class="shop-now-button">Shop Now</a>
+      </div>
+      <div class="col-md-6">
+        <img class="product-image" src="images/bglobe2.png" alt="Product Image">
+      </div>
+    </div>
+  </div>
+</section>
+
 <div class="homepage">
-  <img src="images/earthday.jpeg" class="sale" alt="Globe of the day">
-  <div class="hometext">
-  <h2>Enormous Earth Day Sale!</h2>
-  <h4>Get 22% off on all globes.</h4>
-  <h6>Limited time only.</h6>
-  <p>
-    Dive into the orbit of savings this Earth Day with Orbital Obsessions' astronomical sale event! As celestial beings, we recognize the importance of preserving and cherishing our beautiful planet, and what better way to celebrate than by offering you an out-of-this-world deal? Prepare to launch into a shopping spree like never before as we unveil our Enormous Earth Day Sale, where everything under the stars is adorned with a breathtaking 22% off! Embrace the spirit of sustainability and indulge guilt-free in your favorite products, knowing that you're contributing to a brighter, greener future for our beloved Earth. Join us in orbit as we orbit around the sun, celebrating our planet in style. Don't miss your chance to snag stellar savings and celestial treasures—it's a sale of cosmic proportions that's simply too celestial to resist. Let your shopping journey be an adventure among the stars this Earth Day with Orbital Obsessions!</p>
-    <a class="link" href="allglobes.html">Shop All Globes</a>
-  </div>
-</div>
-<hr>
-<div class="featured">
-  <h4 class="fglobes">Featured Globes</h4>
-  <div class="card" style="width: 13.29rem;">
-    <a href="products.html">
-    <img src="images/globe1.jpeg" class="card-img-top" alt="globe1"></a>
-    <div class="card-body">
-      <h6 class="card-title">Worldy Globe</h6>
-      <p class="card-text">$199.99</p>
-      <a href="checkout.html" class="btn btn-primary">Add to Cart</a>
+    <img src="images/earthday.jpeg" class="sale" alt="Globe of the day">
+    <div class="hometext">
+    <h2>Enormous Earth Day Sale!</h2>
+    <h4>Get 22% off on all globes.</h4>
+    <h6>Limited time only.</h6>
+    <p>
+      Dive into the orbit of savings this Earth Day with Orbital Obsessions' astronomical sale event! As celestial beings, we recognize the importance of preserving and cherishing our beautiful planet, and what better way to celebrate than by offering you an out-of-this-world deal? Prepare to launch into a shopping spree like never before as we unveil our Enormous Earth Day Sale, where everything under the stars is adorned with a breathtaking 22% off! Embrace the spirit of sustainability and indulge guilt-free in your favorite products, knowing that you're contributing to a brighter, greener future for our beloved Earth. Join us in orbit as we orbit around the sun, celebrating our planet in style. Don't miss your chance to snag stellar savings and celestial treasures—it's a sale of cosmic proportions that's simply too celestial to resist. Let your shopping journey be an adventure among the stars this Earth Day with Orbital Obsessions!</p>
+      <a class="link" href="allglobes.html">Shop All Globes</a>
     </div>
   </div>
-  <div class="card" style="width: 13.29rem;">
-    <img src="images/globe2.jpeg" class="card-img-top" alt="globe1">
-    <div class="card-body">
-      <h6 class="card-title">Revolution Globe</h6>
-      <p class="card-text">$199.99</p>
-      <a href="#" class="btn btn-primary">Add to Cart</a>
+  <hr>
+  <div class="featured">
+    <h4 class="fglobes">Featured Globes</h4>
+    <div class="card" style="width: 13.29rem;">
+      <a href="products.html">
+      <img src="images/globe1.jpeg" class="card-img-top" alt="globe1"></a>
+      <div class="card-body">
+        <h6 class="card-title">Worldy Globe</h6>
+        <p class="card-text">$199.99</p>
+        <a href="checkout2.html" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+    <div class="card" style="width: 13.29rem;">
+      <img src="images/globe2.jpeg" class="card-img-top" alt="globe1">
+      <div class="card-body">
+        <h6 class="card-title">Revolution Globe</h6>
+        <p class="card-text">$199.99</p>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+    <div class="card" style="width: 13.29rem;">
+      <img src="images/globe3.jpeg" class="card-img-top" alt="globe1">
+      <div class="card-body">
+        <h6 class="card-title">Atlas Globe</h6>
+        <p class="card-text">$199.99</p>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+    <div class="card" style="width: 13.29rem;">
+      <img src="images/globe4.jpeg" class="card-img-top" alt="globe1">
+      <div class="card-body">
+        <h6 class="card-title">Primus Raised Globe</h6>
+        <p class="card-text">$199.99</p>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div><div class="card" style="width: 13.29rem;">
+      <img src="images/globe9.jpeg" class="card-img-top" alt="globe1">
+      <div class="card-body">
+        <h6 class="card-title">Globe Noir</h6>
+        <p class="card-text">$199.99</p>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+    <div class="card" style="width: 13.29rem;">
+      <img src="images/globe6.jpeg" class="card-img-top" alt="globe1">
+      <div class="card-body">
+        <h6 class="card-title">The Original Globe</h6>
+        <p class="card-text">$199.99</p>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
     </div>
   </div>
-  <div class="card" style="width: 13.29rem;">
-    <img src="images/globe3.jpeg" class="card-img-top" alt="globe1">
-    <div class="card-body">
-      <h6 class="card-title">Atlas Globe</h6>
-      <p class="card-text">$199.99</p>
-      <a href="#" class="btn btn-primary">Add to Cart</a>
-    </div>
-  </div>
-  <div class="card" style="width: 13.29rem;">
-    <img src="images/globe4.jpeg" class="card-img-top" alt="globe1">
-    <div class="card-body">
-      <h6 class="card-title">Primus Raised Globe</h6>
-      <p class="card-text">$199.99</p>
-      <a href="#" class="btn btn-primary">Add to Cart</a>
-    </div>
-  </div><div class="card" style="width: 13.29rem;">
-    <img src="images/globe9.jpeg" class="card-img-top" alt="globe1">
-    <div class="card-body">
-      <h6 class="card-title">Globe Noir</h6>
-      <p class="card-text">$199.99</p>
-      <a href="#" class="btn btn-primary">Add to Cart</a>
-    </div>
-  </div>
-  <div class="card" style="width: 13.29rem;">
-    <img src="images/globe6.jpeg" class="card-img-top" alt="globe1">
-    <div class="card-body">
-      <h6 class="card-title">The Original Globe</h6>
-      <p class="card-text">$199.99</p>
-      <a href="#" class="btn btn-primary">Add to Cart</a>
-    </div>
-  </div>
-</div>
+
 </body>
 </html>
+
